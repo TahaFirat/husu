@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "status": "editorial_partial",
+    "source": null,
+    "note": "No reliable live Turkish transliteration endpoint was available. Values for surah 1 and 103 are conventional editorial renderings; null values are intentionally unavailable and must not be presented as provider data."
+  },
+  "verses": {
+    "1": {
+      "1": "Bismillâhirrahmânirrahîm",
+      "2": "Elhamdü lillâhi rabbil âlemîn",
+      "3": "Errahmânirrahîm",
+      "4": "Mâliki yevmiddîn",
+      "5": "İyyâke na‘budü ve iyyâke neste‘în",
+      "6": "İhdinessırâtal müstakîm",
+      "7": "Sırâtallezîne en‘amte aleyhim ğayril mağdûbi aleyhim ve leddâllîn"
+    },
+    "2": {
+      "255": null,
+      "285": null,
+      "286": null
+    },
+    "59": {
+      "22": null,
+      "23": null,
+      "24": null
+    },
+    "93": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null
+    },
+    "94": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null
+    },
+    "95": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null
+    },
+    "96": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null
+    },
+    "97": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null
+    },
+    "98": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null
+    },
+    "99": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null
+    },
+    "100": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null
+    },
+    "101": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null
+    },
+    "102": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null
+    },
+    "103": {
+      "1": "Vel asr",
+      "2": "İnnel insâne lefî husr",
+      "3": "İl lâllezîne âmenû ve amilûssâlihâti ve tevâsav bil hakkı ve tevâsav bissabr"
+    },
+    "104": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    },
+    "105": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null
+    },
+    "106": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null
+    },
+    "107": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null
+    },
+    "108": {
+      "1": null,
+      "2": null,
+      "3": null
+    },
+    "109": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null
+    },
+    "110": {
+      "1": null,
+      "2": null,
+      "3": null
+    },
+    "111": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null
+    },
+    "112": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null
+    },
+    "113": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null
+    },
+    "114": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null
+    }
+  }
+}

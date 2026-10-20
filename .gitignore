@@ -1,0 +1,39 @@
+# dependencies / build output
+node_modules/
+dist/
+.next/
+.vinext/
+.wrangler/
+.sites-runtime/
+app/build/*
+!app/build/connector-preview-plugin.mjs
+!app/build/connector-preview-worker.mjs
+!app/build/sites-vite-plugin.LICENSE
+!app/build/sites-vite-plugin.ts
+!app/build/sites-worker.ts
+*.tsbuildinfo
+
+# iOS build output
+mobile/ios/App/build/
+mobile/ios/App/App/public/
+mobile/ios/App/App/capacitor.config.json
+mobile/ios/App/App/config.xml
+DerivedData/
+xcuserdata/
+
+# Secrets — NEVER commit (they go into GitHub Secrets)
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.key
+*.pem
+*.cer
+*.certSigningRequest
+SECRETS*.txt
+mobile/apple_certs/*
+!mobile/apple_certs/Husu.mobileprovision
+
+.DS_Store
+*.log

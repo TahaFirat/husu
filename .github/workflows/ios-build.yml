@@ -1,0 +1,177 @@
+name: iOS Build & TestFlight Deploy
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'app/app/**'
+      - 'app/lib/**'
+      - 'mobile/**'
+      - '.github/workflows/ios-build.yml'
+  workflow_dispatch:
+
+jobs:
+  build-ios:
+    name: Build iOS with Xcode on Cloud Mac
+    runs-on: macos-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: mobile
+    env:
+      BUNDLE_ID: com.tahafirat.husu
+      PROFILE_NAME: Husu AppStore Profile
+      TEAM_ID: U3YT2CXH58
+      APP_STORE_CONNECT_API_KEY: ${{ secrets.APP_STORE_CONNECT_API_KEY }}
+      APP_STORE_CONNECT_KEY_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ID || 'N7XD86ZSMH' }}
+      APP_STORE_CONNECT_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID || 'c4346abc-087b-4e87-a020-6737592faa26' }}
+      BUILD_CERTIFICATE_BASE64: ${{ secrets.BUILD_CERTIFICATE_BASE64 }}
+      P12_PASSWORD: ${{ secrets.P12_PASSWORD }}
+
+    steps:
+      - name: 1. Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 2. Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+          cache-dependency-path: mobile/package-lock.json
+
+      - name: 3. Install Dependencies
+        run: npm ci
+
+      - name: 4. Build Web Bundle
+        run: npm run build
+
+      - name: 5. Sync Capacitor iOS Project
+        run: npx cap sync ios
+
+      - name: 6. Check required secrets
+        run: |
+          missing=""
+          [ -z "$BUILD_CERTIFICATE_BASE64" ] && missing="$missing BUILD_CERTIFICATE_BASE64"
+          [ -z "$P12_PASSWORD" ] && missing="$missing P12_PASSWORD"
+          [ -z "$APP_STORE_CONNECT_API_KEY" ] && missing="$missing APP_STORE_CONNECT_API_KEY"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing GitHub secrets:$missing (Settings > Secrets and variables > Actions)"
+            exit 1
+          fi
+
+      - name: 7. Install Apple Distribution Certificate & Provisioning Profile
+        run: |
+          KEYCHAIN_PATH=$RUNNER_TEMP/app-signing.keychain-db
+          KEYCHAIN_PASSWORD=$(openssl rand -base64 12)
+          security create-keychain -p "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
+          security set-keychain-settings -lut 21600 $KEYCHAIN_PATH
+          security unlock-keychain -p "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
+
+          echo "$BUILD_CERTIFICATE_BASE64" | base64 --decode > $RUNNER_TEMP/certificate.p12
+          security import $RUNNER_TEMP/certificate.p12 -P "$P12_PASSWORD" -A -t cert -f pkcs12 -k $KEYCHAIN_PATH
+          security set-key-partition-list -S apple-tool:,apple: -s -k "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
+          security list-keychain -d user -s $KEYCHAIN_PATH $(security list-keychains -d user | sed -e 's/^[[:space:]]*//' -e 's/"//g')
+
+          PROFILE_FILE=apple_certs/Husu.mobileprovision
+          # Refresh the profile via App Store Connect API when it is missing or expired.
+          NEED_PROFILE=true
+          if [ -f "$PROFILE_FILE" ]; then
+            security cms -D -i "$PROFILE_FILE" > $RUNNER_TEMP/profile.plist
+            EXP=$(/usr/libexec/PlistBuddy -c "Print ExpirationDate" $RUNNER_TEMP/profile.plist)
+            if [ "$(date -j -f '%a %b %d %T %Z %Y' "$EXP" +%s 2>/dev/null || echo 0)" -gt "$(date +%s)" ]; then NEED_PROFILE=false; fi
+          fi
+          if [ "$NEED_PROFILE" = true ]; then
+            echo "Fetching provisioning profile via App Store Connect API..."
+            pip3 install --quiet --break-system-packages pyjwt cryptography requests || pip3 install --quiet pyjwt cryptography requests
+            python3 - << 'PYEOF'
+          import os, re, time, base64, jwt, requests
+          key_id = os.environ['APP_STORE_CONNECT_KEY_ID'].strip()
+          issuer = os.environ['APP_STORE_CONNECT_ISSUER_ID'].strip()
+          b64 = re.sub(r'-----BEGIN [^-]+-----|-----END [^-]+-----|\s+', '', os.environ['APP_STORE_CONNECT_API_KEY'])
+          pem = '-----BEGIN PRIVATE KEY-----\n' + '\n'.join(b64[i:i+64] for i in range(0, len(b64), 64)) + '\n-----END PRIVATE KEY-----\n'
+          tok = jwt.encode({'iss': issuer, 'iat': int(time.time()), 'exp': int(time.time()) + 1100, 'aud': 'appstoreconnect-v1'}, pem, algorithm='ES256', headers={'kid': key_id, 'typ': 'JWT'})
+          H = {'Authorization': f'Bearer {tok}', 'Content-Type': 'application/json'}
+          A = 'https://api.appstoreconnect.apple.com/v1'
+          bundle, name = os.environ['BUNDLE_ID'], os.environ['PROFILE_NAME']
+          bid = next((b['id'] for b in requests.get(f'{A}/bundleIds', headers=H, params={'filter[identifier]': bundle}).json().get('data', []) if b['attributes']['identifier'] == bundle), None)
+          if not bid:
+              bid = requests.post(f'{A}/bundleIds', headers=H, json={'data': {'type': 'bundleIds', 'attributes': {'identifier': bundle, 'name': 'Husu', 'platform': 'IOS'}}}).json()['data']['id']
+          certs = [c['id'] for c in requests.get(f'{A}/certificates', headers=H, params={'limit': 200}).json().get('data', []) if c['attributes']['certificateType'] == 'DISTRIBUTION']
+          for p in requests.get(f'{A}/profiles', headers=H, params={'filter[name]': name}).json().get('data', []):
+              requests.delete(f"{A}/profiles/{p['id']}", headers=H)
+          r = requests.post(f'{A}/profiles', headers=H, json={'data': {'type': 'profiles', 'attributes': {'name': name, 'profileType': 'IOS_APP_STORE'}, 'relationships': {'bundleId': {'data': {'type': 'bundleIds', 'id': bid}}, 'certificates': {'data': [{'type': 'certificates', 'id': c} for c in certs]}}}})
+          r.raise_for_status()
+          open('apple_certs/Husu.mobileprovision', 'wb').write(base64.b64decode(r.json()['data']['attributes']['profileContent']))
+          print('Profile refreshed')
+          PYEOF
+            security cms -D -i "$PROFILE_FILE" > $RUNNER_TEMP/profile.plist
+          fi
+
+          PROFILE_UUID=$(/usr/libexec/PlistBuddy -c "Print UUID" $RUNNER_TEMP/profile.plist)
+          mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
+          cp "$PROFILE_FILE" ~/Library/MobileDevice/Provisioning\ Profiles/${PROFILE_UUID}.mobileprovision
+          echo "Installed profile $PROFILE_UUID"
+
+      - name: 8. Build Xcode Archive
+        run: |
+          cd ios/App
+          xcodebuild -project App.xcodeproj \
+                     -scheme App \
+                     -destination 'generic/platform=iOS' \
+                     -configuration Release \
+                     CURRENT_PROJECT_VERSION="${{ github.run_number }}" \
+                     PRODUCT_BUNDLE_IDENTIFIER="$BUNDLE_ID" \
+                     DEVELOPMENT_TEAM="$TEAM_ID" \
+                     CODE_SIGN_STYLE="Manual" \
+                     PROVISIONING_PROFILE_SPECIFIER="$PROFILE_NAME" \
+                     CODE_SIGN_IDENTITY="Apple Distribution" \
+                     clean archive \
+                     -archivePath ./build/App.xcarchive
+
+      - name: 9. Export Signed IPA
+        run: |
+          cd ios/App
+          xcodebuild -exportArchive \
+                     -archivePath ./build/App.xcarchive \
+                     -exportPath ./build/export \
+                     -exportOptionsPlist exportOptions.plist
+          cp ./build/export/*.ipa ./build/App.ipa
+
+      - name: 10. Upload Artifacts to GitHub
+        uses: actions/upload-artifact@v4
+        with:
+          name: Husu-Signed-iOS-App
+          path: mobile/ios/App/build/App.ipa
+          retention-days: 14
+
+      - name: 11. Upload to App Store Connect / TestFlight
+        run: |
+          set -o pipefail
+          KEY_ID=$(echo "$APP_STORE_CONNECT_KEY_ID" | tr -d '[:space:]')
+          ISSUER_ID=$(echo "$APP_STORE_CONNECT_ISSUER_ID" | tr -d '[:space:]')
+          python3 -c "
+          import os, re
+          b64 = re.sub(r'-----BEGIN [^-]+-----|-----END [^-]+-----|\s+', '', os.environ['APP_STORE_CONNECT_API_KEY'])
+          pem = '-----BEGIN PRIVATE KEY-----\n' + '\n'.join(b64[i:i+64] for i in range(0, len(b64), 64)) + '\n-----END PRIVATE KEY-----\n'
+          d = os.path.expanduser('~/.appstoreconnect/private_keys'); os.makedirs(d, exist_ok=True)
+          p = os.path.join(d, 'AuthKey_$KEY_ID.p8'); open(p, 'w').write(pem); os.chmod(p, 0o600)
+          "
+          UPLOAD_SUCCESS=false
+          echo "=== Upload via xcrun altool ==="
+          if xcrun altool --upload-app --type ios --file ./ios/App/build/App.ipa --apiKey "$KEY_ID" --apiIssuer "$ISSUER_ID" 2>&1 | tee altool.log; then
+            UPLOAD_SUCCESS=true
+          fi
+          if [ "$UPLOAD_SUCCESS" = false ]; then
+            cat altool.log >> $GITHUB_STEP_SUMMARY
+            TRANSPORTER=$(find /Applications/Xcode* -name iTMSTransporter 2>/dev/null | head -n 1)
+            if [ -n "$TRANSPORTER" ]; then
+              echo "=== Upload via iTMSTransporter ==="
+              if "$TRANSPORTER" -m upload -assetFile ./ios/App/build/App.ipa -apiKey "$KEY_ID" -apiIssuer "$ISSUER_ID" 2>&1 | tee itms.log; then
+                UPLOAD_SUCCESS=true
+              else
+                cat itms.log >> $GITHUB_STEP_SUMMARY
+              fi
+            fi
+          fi
+          [ "$UPLOAD_SUCCESS" = true ] || { echo "::error::Upload failed, see job summary"; exit 1; }
+          echo "Build #${{ github.run_number }} uploaded. It appears in App Store Connect > TestFlight after ~10-30 min processing." >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,756 @@
+{
+  "1": {
+    "husuMessage": "Her yönelişinde yeniden bir yol istiyorsun. Kalbini de dilinle birlikte dosdoğru yola çağır.",
+    "keyWords": [
+      {
+        "arabic": "ٱلْحَمْدُ",
+        "transliteration": "El-hamd",
+        "meaning": "Bütün övgü",
+        "match": "Hamd",
+        "verse": 2,
+        "deepNote": "Bütün övgü: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "رَبِّ",
+        "transliteration": "Rabb",
+        "meaning": "Rab",
+        "match": "Rabbi",
+        "verse": 2,
+        "deepNote": "Rab: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلرَّحِيمِ",
+        "transliteration": "Er-Rahîm",
+        "meaning": "Merhameti sonsuz",
+        "match": "Rahim",
+        "verse": 3,
+        "deepNote": "Merhameti sonsuz: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "2": {
+    "husuMessage": "Seni ayakta tutanın hiç uyumadığını hatırla. Kaygılarını, gökleri ve yeri gözetene emanet et.",
+    "keyWords": [
+      {
+        "arabic": "ٱلْحَىُّ",
+        "transliteration": "El-Hayy",
+        "meaning": "Daima diri",
+        "match": "diri",
+        "verse": 255,
+        "deepNote": "Daima diri: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلْقَيُّومُ",
+        "transliteration": "El-Kayyûm",
+        "meaning": "Her şeyi ayakta tutan",
+        "match": "gözetip durandır",
+        "verse": 255,
+        "deepNote": "Her şeyi ayakta tutan: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلْعَظِيمُ",
+        "transliteration": "El-Azîm",
+        "meaning": "Pek büyük",
+        "match": "büyüktür",
+        "verse": 255,
+        "deepNote": "Pek büyük: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "59": {
+    "husuMessage": "Görüneni de kalbinde saklı olanı da bilen Rabbine yöneliyorsun. O’nun isimlerini düşünürken kalbine bir sükûnet davet et.",
+    "keyWords": [
+      {
+        "arabic": "عَٰلِمُ",
+        "transliteration": "Âlim",
+        "meaning": "Bilen",
+        "match": "bilen",
+        "verse": 22,
+        "deepNote": "Bilen: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلسَّلَٰمُ",
+        "transliteration": "Es-Selâm",
+        "meaning": "Esenlik veren",
+        "match": "esenlik veren",
+        "verse": 23,
+        "deepNote": "Esenlik veren: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلْخَٰلِقُ",
+        "transliteration": "El-Hâlık",
+        "meaning": "Yaratan",
+        "match": "vareden",
+        "verse": 24,
+        "deepNote": "Yaratan: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "93": {
+    "husuMessage": "Kuşluk aydınlığını ve gecenin sükûnetini hatırla. Rabbinin Peygamberine tesellisi üzerine düşünürken umudunu tazele.",
+    "keyWords": [
+      {
+        "arabic": "وَٱلضُّحَىٰ",
+        "transliteration": "Ved-duhâ",
+        "meaning": "Kuşluk vakti",
+        "match": "Kuşluk",
+        "verse": 1,
+        "deepNote": "Kuşluk vakti: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "وَٱلَّيْلِ",
+        "transliteration": "Vel-leyl",
+        "meaning": "Gece",
+        "match": "geceye",
+        "verse": 2,
+        "deepNote": "Gece: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "رَبُّكَ",
+        "transliteration": "Rabbüke",
+        "meaning": "Rabbin",
+        "match": "Rabbin",
+        "verse": 3,
+        "deepNote": "Rabbin: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "94": {
+    "husuMessage": "Omuzlarında taşıdığın yükü bir an fark et. Gönlünün ferahlığını Rabbinden iste.",
+    "keyWords": [
+      {
+        "arabic": "صَدْرَكَ",
+        "transliteration": "Sadrak",
+        "meaning": "Göğsün, gönlün",
+        "match": "gönlünü",
+        "verse": 1,
+        "deepNote": "Göğsün, gönlün: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "وِزْرَكَ",
+        "transliteration": "Vizrak",
+        "meaning": "Yükün",
+        "match": "yükünü",
+        "verse": 2,
+        "deepNote": "Yükün: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ظَهْرَكَ",
+        "transliteration": "Zahrak",
+        "meaning": "Sırtın",
+        "match": "Belini",
+        "verse": 3,
+        "deepNote": "Sırtın: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "95": {
+    "husuMessage": "İncirden zeytine, güvenli beldeye uzanan işaretleri düşünüyorsun. Hayatın içindeki nimetlere dikkatle bak.",
+    "keyWords": [
+      {
+        "arabic": "وَٱلتِّينِ",
+        "transliteration": "Vet-tîn",
+        "meaning": "İncir",
+        "match": "İncir",
+        "verse": 1,
+        "deepNote": "İncir: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "وَٱلزَّيْتُونِ",
+        "transliteration": "Vez-zeytûn",
+        "meaning": "Zeytin",
+        "match": "zeytine",
+        "verse": 1,
+        "deepNote": "Zeytin: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلْأَمِينِ",
+        "transliteration": "El-emîn",
+        "meaning": "Güvenli",
+        "match": "güvenli",
+        "verse": 3,
+        "deepNote": "Güvenli: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "96": {
+    "husuMessage": "Okumayı, seni yaratanın adıyla başlatıyorsun. Bildiklerinin de bilmediklerinin de önünde tevazuyla dur.",
+    "keyWords": [
+      {
+        "arabic": "ٱقْرَأْ",
+        "transliteration": "İkra",
+        "meaning": "Oku",
+        "match": "oku",
+        "verse": 1,
+        "deepNote": "Oku: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "رَبِّكَ",
+        "transliteration": "Rabbike",
+        "meaning": "Rabbin",
+        "match": "Rabbinin",
+        "verse": 1,
+        "deepNote": "Rabbin: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلْإِنسَٰنَ",
+        "transliteration": "El-insân",
+        "meaning": "İnsan",
+        "match": "insanı",
+        "verse": 2,
+        "deepNote": "İnsan: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "97": {
+    "husuMessage": "Bir gecenin bin aydan hayırlı oluşunu düşün. Bu kısa anı da kalbinle yaşayabileceğini hatırla.",
+    "keyWords": [
+      {
+        "arabic": "أَنزَلْنَٰهُ",
+        "transliteration": "Enzelnâhü",
+        "meaning": "Onu indirdik",
+        "match": "indirmişizdir",
+        "verse": 1,
+        "deepNote": "Onu indirdik: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلْقَدْرِ",
+        "transliteration": "El-kadr",
+        "meaning": "Kadir",
+        "match": "Kadir",
+        "verse": 2,
+        "deepNote": "Kadir: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "خَيْرٌۭ",
+        "transliteration": "Hayr",
+        "meaning": "Daha hayırlı",
+        "match": "hayırlıdır",
+        "verse": 3,
+        "deepNote": "Daha hayırlı: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "98": {
+    "husuMessage": "Açık delili ve arınmış sahifeleri dinliyorsun. Kalbini hakikati arayan bir dikkatle hazırla.",
+    "keyWords": [
+      {
+        "arabic": "ٱلْبَيِّنَةُ",
+        "transliteration": "El-beyyine",
+        "meaning": "Apaçık delil",
+        "match": "apaçık bir belge",
+        "verse": 1,
+        "deepNote": "Apaçık delil: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "رَسُولٌۭ",
+        "transliteration": "Resûl",
+        "meaning": "Elçi",
+        "match": "Peygamber",
+        "verse": 2,
+        "deepNote": "Elçi: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "مُّطَهَّرَةًۭ",
+        "transliteration": "Mutahhara",
+        "meaning": "Arınmış",
+        "match": "arınmış",
+        "verse": 2,
+        "deepNote": "Arınmış: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "99": {
+    "husuMessage": "Dünyanın sarsıldığı anı düşünüyorsun. Bugünkü küçük iyiliklerinin kıymetini hatırla.",
+    "keyWords": [
+      {
+        "arabic": "زُلْزِلَتِ",
+        "transliteration": "Zülzilet",
+        "meaning": "Sarsıldı",
+        "match": "sarsıldığı",
+        "verse": 1,
+        "deepNote": "Sarsıldı: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "أَثْقَالَهَا",
+        "transliteration": "Eskâlehâ",
+        "meaning": "Ağırlıkları",
+        "match": "ağırlıklarını",
+        "verse": 2,
+        "deepNote": "Ağırlıkları: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلْإِنسَٰنُ",
+        "transliteration": "El-insân",
+        "meaning": "İnsan",
+        "match": "insanın",
+        "verse": 3,
+        "deepNote": "İnsan: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "100": {
+    "husuMessage": "Koşanların gücünü ve hareketini dinliyorsun. Kendi gayretinin hangi yöne aktığını düşün.",
+    "keyWords": [
+      {
+        "arabic": "وَٱلْعَٰدِيَٰتِ",
+        "transliteration": "Vel-âdiyât",
+        "meaning": "Koşanlar",
+        "match": "koştukça koşanlara",
+        "verse": 1,
+        "deepNote": "Koşanlar: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "قَدْحًۭا",
+        "transliteration": "Kadhan",
+        "meaning": "Kıvılcım çıkararak",
+        "match": "kıvılcımlar",
+        "verse": 2,
+        "deepNote": "Kıvılcım çıkararak: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "صُبْحًۭا",
+        "transliteration": "Subhan",
+        "meaning": "Sabahleyin",
+        "match": "Sabah sabah",
+        "verse": 3,
+        "deepNote": "Sabahleyin: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "101": {
+    "husuMessage": "Büyük sarsıntının sorusu seni durup düşünmeye çağırıyor. Günlük telaşın içinde ahirete de yer aç.",
+    "keyWords": [
+      {
+        "arabic": "ٱلْقَارِعَةُ",
+        "transliteration": "El-kâria",
+        "meaning": "Sarsıcı hadise",
+        "match": "Gürültü koparacak olan",
+        "verse": 1,
+        "deepNote": "Sarsıcı hadise: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "مَا",
+        "transliteration": "Mâ",
+        "meaning": "Nedir",
+        "match": "Nedir",
+        "verse": 2,
+        "deepNote": "Nedir: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "أَدْرَىٰكَ",
+        "transliteration": "Edrâke",
+        "meaning": "Sana bildirdi",
+        "match": "bilir misin",
+        "verse": 3,
+        "deepNote": "Sana bildirdi: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "102": {
+    "husuMessage": "Çoğaltma yarışının seni ne kadar meşgul ettiğini düşün. Kalbine, sahip olduklarından daha geniş bir alan aç.",
+    "keyWords": [
+      {
+        "arabic": "ٱلتَّكَاثُرُ",
+        "transliteration": "Et-tekâsür",
+        "meaning": "Çokluk yarışı",
+        "match": "Çoğunluk olmak iddianız",
+        "verse": 1,
+        "deepNote": "Çokluk yarışı: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلْمَقَابِرَ",
+        "transliteration": "El-mekâbir",
+        "meaning": "Kabirler",
+        "match": "mezarları",
+        "verse": 2,
+        "deepNote": "Kabirler: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "تَعْلَمُونَ",
+        "transliteration": "Ta‘lemûn",
+        "meaning": "Bileceksiniz",
+        "match": "bileceksiniz",
+        "verse": 3,
+        "deepNote": "Bileceksiniz: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "103": {
+    "husuMessage": "Şu an Rabbine, hızla eriyen ömrünün ziyan olmaması için iman ve sabır sözü veriyorsun. Bu kısa anı, kalbinin yeniden yönelişine dönüştür.",
+    "keyWords": [
+      {
+        "arabic": "وَٱلْعَصْرِ",
+        "transliteration": "Vel-asr",
+        "meaning": "Akıp giden ömür",
+        "match": "İkindi vaktine (Asra; çağa)",
+        "verse": 1,
+        "deepNote": "Akıp giden ömür: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "خُسْرٍ",
+        "transliteration": "Husr",
+        "meaning": "Ziyana uğramak",
+        "match": "hüsran",
+        "verse": 2,
+        "deepNote": "Ziyana uğramak: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "بِٱلصَّبْرِ",
+        "transliteration": "Bis-sabr",
+        "meaning": "Sabırda buluşmak",
+        "match": "sabırlı olmayı",
+        "verse": 3,
+        "deepNote": "Sabırda buluşmak: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "104": {
+    "husuMessage": "Dilinle incitmenin ve mala sığınmanın sonunu düşünüyorsun. Bugün bir insanın onurunu korumaya niyet et.",
+    "keyWords": [
+      {
+        "arabic": "هُمَزَةٍۢ",
+        "transliteration": "Hümeze",
+        "meaning": "Çekiştiren",
+        "match": "çekiştirip",
+        "verse": 1,
+        "deepNote": "Çekiştiren: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "مَالًۭا",
+        "transliteration": "Mâlen",
+        "meaning": "Mal",
+        "match": "Mal",
+        "verse": 2,
+        "deepNote": "Mal: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "أَخْلَدَهُۥ",
+        "transliteration": "Ahledeh",
+        "meaning": "Ölümsüz kıldı",
+        "match": "ölümsüz kılacağını",
+        "verse": 3,
+        "deepNote": "Ölümsüz kıldı: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "105": {
+    "husuMessage": "Görünürdeki büyük gücün her şeye yetmediğini hatırla. Sığınağını, gücün gerçek sahibinde ara.",
+    "keyWords": [
+      {
+        "arabic": "ٱلْفِيلِ",
+        "transliteration": "El-fîl",
+        "meaning": "Fil",
+        "match": "Fil",
+        "verse": 1,
+        "deepNote": "Fil: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "كَيْدَهُمْ",
+        "transliteration": "Keydehüm",
+        "meaning": "Düzenleri",
+        "match": "düzenlerini",
+        "verse": 2,
+        "deepNote": "Düzenleri: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "طَيْرًا",
+        "transliteration": "Tayran",
+        "meaning": "Kuşlar",
+        "match": "kuşlar",
+        "verse": 3,
+        "deepNote": "Kuşlar: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "106": {
+    "husuMessage": "Doymak ve güvende olmak ne büyük nimet. Şükrünü, bu nimetlerin Rabbine yönelterek dile getir.",
+    "keyWords": [
+      {
+        "arabic": "قُرَيْشٍ",
+        "transliteration": "Kureyş",
+        "meaning": "Kureyş",
+        "match": "Kureyş",
+        "verse": 1,
+        "deepNote": "Kureyş: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلشِّتَآءِ",
+        "transliteration": "Eş-şitâ",
+        "meaning": "Kış",
+        "match": "kış",
+        "verse": 2,
+        "deepNote": "Kış: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "فَلْيَعْبُدُوا۟",
+        "transliteration": "Fel-ya‘büdû",
+        "meaning": "Kulluk etsinler",
+        "match": "kulluk etsinler",
+        "verse": 3,
+        "deepNote": "Kulluk etsinler: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "107": {
+    "husuMessage": "İbadetinle merhametin arasındaki bağı düşünüyorsun. Namazdan sonra da bir ihtiyaç sahibini görmeye niyet et.",
+    "keyWords": [
+      {
+        "arabic": "بِٱلدِّينِ",
+        "transliteration": "Bid-dîn",
+        "meaning": "Din, hesap günü",
+        "match": "Dini",
+        "verse": 1,
+        "deepNote": "Din, hesap günü: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلْيَتِيمَ",
+        "transliteration": "El-yetîm",
+        "meaning": "Yetim",
+        "match": "Öksüzü",
+        "verse": 2,
+        "deepNote": "Yetim: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلْمِسْكِينِ",
+        "transliteration": "El-miskîn",
+        "meaning": "Yoksul",
+        "match": "yoksulu",
+        "verse": 3,
+        "deepNote": "Yoksul: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "108": {
+    "husuMessage": "Sana verilen nimetleri hatırla. Şükrünü, yalnız Rabbine yönelerek ifade et.",
+    "keyWords": [
+      {
+        "arabic": "ٱلْكَوْثَرَ",
+        "transliteration": "El-kevser",
+        "meaning": "Bol hayır",
+        "match": "pek çok nimet",
+        "verse": 1,
+        "deepNote": "Bol hayır: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "فَصَلِّ",
+        "transliteration": "Fe-salli",
+        "meaning": "Namaz kıl",
+        "match": "namaz kıl",
+        "verse": 2,
+        "deepNote": "Namaz kıl: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "وَٱنْحَرْ",
+        "transliteration": "Venhar",
+        "meaning": "Kurban kes",
+        "match": "kurban kes",
+        "verse": 2,
+        "deepNote": "Kurban kes: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "109": {
+    "husuMessage": "Kulluğunun yönünü berraklaştırıyorsun. Kalbini, inandığın hakikate sadakatle hazırla.",
+    "keyWords": [
+      {
+        "arabic": "قُلْ",
+        "transliteration": "Kul",
+        "meaning": "Söyle",
+        "match": "De ki",
+        "verse": 1,
+        "deepNote": "Söyle: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "أَعْبُدُ",
+        "transliteration": "A‘büdü",
+        "meaning": "Kulluk ederim",
+        "match": "tapmam",
+        "verse": 2,
+        "deepNote": "Kulluk ederim: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "عَٰبِدُونَ",
+        "transliteration": "Âbidûn",
+        "meaning": "Kulluk edenler",
+        "match": "tapmazsınız",
+        "verse": 3,
+        "deepNote": "Kulluk edenler: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "110": {
+    "husuMessage": "Başarı ve yardım geldiğinde de Rabbini hatırlıyorsun. Şükrü ve bağışlanma dileğini birlikte taşı.",
+    "keyWords": [
+      {
+        "arabic": "نَصْرُ",
+        "transliteration": "Nasr",
+        "meaning": "Yardım",
+        "match": "yardımı",
+        "verse": 1,
+        "deepNote": "Yardım: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "وَٱلْفَتْحُ",
+        "transliteration": "El-feth",
+        "meaning": "Fetih, zafer",
+        "match": "zafer",
+        "verse": 1,
+        "deepNote": "Fetih, zafer: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "وَٱسْتَغْفِرْهُ",
+        "transliteration": "Vestağfirh",
+        "meaning": "Bağışlanma dile",
+        "match": "bağışlama dile",
+        "verse": 3,
+        "deepNote": "Bağışlanma dile: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "111": {
+    "husuMessage": "Malın ve kazancın tek başına kurtarmadığını düşünüyorsun. Kalbinin neye yaslandığını gözden geçir.",
+    "keyWords": [
+      {
+        "arabic": "تَبَّتْ",
+        "transliteration": "Tebbet",
+        "meaning": "Kurusun",
+        "match": "kurusun",
+        "verse": 1,
+        "deepNote": "Kurusun: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "مَالُهُۥ",
+        "transliteration": "Mâlüh",
+        "meaning": "Malı",
+        "match": "Malı",
+        "verse": 2,
+        "deepNote": "Malı: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "نَارًۭا",
+        "transliteration": "Nâran",
+        "meaning": "Ateş",
+        "match": "ateşe",
+        "verse": 3,
+        "deepNote": "Ateş: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "112": {
+    "husuMessage": "Kalbinin yönünü tek olana çeviriyorsun. Her ihtiyaçta sığınacağın kapının O olduğunu hatırla.",
+    "keyWords": [
+      {
+        "arabic": "أَحَدٌ",
+        "transliteration": "Ehad",
+        "meaning": "Bir ve tek",
+        "match": "bir tektir",
+        "verse": 1,
+        "deepNote": "Bir ve tek: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلصَّمَدُ",
+        "transliteration": "Es-Samed",
+        "meaning": "Her şey O’na muhtaç",
+        "match": "her şey O'na muhtaçtır",
+        "verse": 2,
+        "deepNote": "Her şey O’na muhtaç: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "يَلِدْ",
+        "transliteration": "Yelid",
+        "meaning": "Doğurmak",
+        "match": "doğurmamış",
+        "verse": 3,
+        "deepNote": "Doğurmak: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "113": {
+    "husuMessage": "Karanlığın ve kıskançlığın şerrinden Rabbine sığınıyorsun. Endişelerini, tan yerini ağartana emanet et.",
+    "keyWords": [
+      {
+        "arabic": "أَعُوذُ",
+        "transliteration": "Eûzü",
+        "meaning": "Sığınırım",
+        "match": "sığınırım",
+        "verse": 1,
+        "deepNote": "Sığınırım: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "ٱلْفَلَقِ",
+        "transliteration": "El-felak",
+        "meaning": "Tan yeri",
+        "match": "tan yerini",
+        "verse": 1,
+        "deepNote": "Tan yeri: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "شَرِّ",
+        "transliteration": "Şerr",
+        "meaning": "Kötülük",
+        "match": "şerrinden",
+        "verse": 2,
+        "deepNote": "Kötülük: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "114": {
+    "husuMessage": "Kalbinin içindeki sessiz vesveseleri fark ediyorsun. İnsanların Rabbine sığınarak dikkatini yeniden topla.",
+    "keyWords": [
+      {
+        "arabic": "بِرَبِّ",
+        "transliteration": "Rabb",
+        "meaning": "Rab",
+        "match": "Rabbi",
+        "verse": 1,
+        "deepNote": "Rab: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "مَلِكِ",
+        "transliteration": "Melik",
+        "meaning": "Hükümran",
+        "match": "Hükümranı",
+        "verse": 2,
+        "deepNote": "Hükümran: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      },
+      {
+        "arabic": "إِلَٰهِ",
+        "transliteration": "İlâh",
+        "meaning": "İlah",
+        "match": "Tanrısı",
+        "verse": 3,
+        "deepNote": "İlah: Bu anlamı okurken bir an dur ve kalbinde hisset."
+      }
+    ]
+  },
+  "2-285": {
+    "husuMessage": "İşittik ve itaat ettik diyerek kalbini Rabbine yöneltiyorsun. Gücünü aşan yükler için yardım, eksiklerin için bağışlanma iste.",
+    "keyWords": [
+      {
+        "arabic": "سَمِعْنَا",
+        "transliteration": "Semi‘nâ",
+        "meaning": "İşittik",
+        "match": "işittik",
+        "deepNote": "Dinlediğin hakikatin hayatında bir karşılığı olsun.",
+        "verse": 285
+      },
+      {
+        "arabic": "وَأَطَعْنَا",
+        "transliteration": "Ve eta‘nâ",
+        "meaning": "İtaat ettik",
+        "match": "itaat ettik",
+        "deepNote": "Yönelişini yalnız söze değil, davranışına da taşı.",
+        "verse": 285
+      },
+      {
+        "arabic": "وَٱغْفِرْ",
+        "transliteration": "Vağfir",
+        "meaning": "Bağışla",
+        "match": "bağışla",
+        "deepNote": "Eksiklerinle birlikte Rabbine yönelmeye cesaret et.",
+        "verse": 286
+      }
+    ]
+  }
+}

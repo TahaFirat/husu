@@ -1,0 +1,86 @@
+[
+  {
+    "id": "13:28",
+    "surah": 13,
+    "verse": 28,
+    "arabic": "ٱلَّذِينَ ءَامَنُوا۟ وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ ٱللَّهِ ۗ أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ",
+    "translation": "Onlar inanmışlar, kalbleri Allah'ı anmakla huzura kavuşmuştur. Dikkat edin, kalbler ancak Allah'ı anmakla huzura kavuşur.",
+    "sourceUrl": "https://api.alquran.cloud/v1/ayah/13:28/editions/quran-uthmani,tr.diyanet",
+    "fetchedAt": "2026-10-20T16:30:46.681706+00:00",
+    "name": "Ra‘d",
+    "edition": "tr.diyanet",
+    "contextUrl": "https://quran.com/tr/13/28"
+  },
+  {
+    "id": "2:152",
+    "surah": 2,
+    "verse": 152,
+    "arabic": "فَٱذْكُرُونِىٓ أَذْكُرْكُمْ وَٱشْكُرُوا۟ لِى وَلَا تَكْفُرُونِ",
+    "translation": "Artık Beni anın, Ben de sizi anayım; Bana şükredin, nankörlük etmeyin.",
+    "sourceUrl": "https://api.alquran.cloud/v1/ayah/2:152/editions/quran-uthmani,tr.diyanet",
+    "fetchedAt": "2026-10-20T16:30:47.089530+00:00",
+    "name": "Bakara",
+    "edition": "tr.diyanet",
+    "contextUrl": "https://quran.com/tr/2/152"
+  },
+  {
+    "id": "11:90",
+    "surah": 11,
+    "verse": 90,
+    "arabic": "وَٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى رَحِيمٌۭ وَدُودٌۭ",
+    "translation": "\"Rabbinizden mağfiret dileyin; O'na tevbe edin; doğrusu Rabbim merhamet eder ve çok sever.\"",
+    "sourceUrl": "https://api.alquran.cloud/v1/ayah/11:90/editions/quran-uthmani,tr.diyanet",
+    "fetchedAt": "2026-10-20T16:30:47.318562+00:00",
+    "name": "Hûd",
+    "edition": "tr.diyanet",
+    "contextUrl": "https://quran.com/tr/11/90"
+  },
+  {
+    "id": "42:19",
+    "surah": 42,
+    "verse": 19,
+    "arabic": "ٱللَّهُ لَطِيفٌۢ بِعِبَادِهِۦ يَرْزُقُ مَن يَشَآءُ ۖ وَهُوَ ٱلْقَوِىُّ ٱلْعَزِيزُ",
+    "translation": "Allah, kullarına lütufta bulunandır. Dilediğini rızıklandırır. Kuvvetli olan da güçlü olan da O'dur.",
+    "sourceUrl": "https://api.alquran.cloud/v1/ayah/42:19/editions/quran-uthmani,tr.diyanet",
+    "fetchedAt": "2026-10-20T16:30:47.562510+00:00",
+    "name": "Şûrâ",
+    "edition": "tr.diyanet",
+    "contextUrl": "https://quran.com/tr/42/19"
+  },
+  {
+    "id": "94:5",
+    "surah": 94,
+    "verse": 5,
+    "arabic": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+    "translation": "Elbette güçlükle beraber şüphesiz bir kolaylık vardır.",
+    "sourceUrl": "https://api.alquran.cloud/v1/ayah/94:5/editions/quran-uthmani,tr.diyanet",
+    "fetchedAt": "2026-10-20T16:30:47.786815+00:00",
+    "name": "İnşirâh",
+    "edition": "tr.diyanet",
+    "contextUrl": "https://quran.com/tr/94/5"
+  },
+  {
+    "id": "39:53",
+    "surah": 39,
+    "verse": 53,
+    "arabic": "۞ قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+    "translation": "De ki: \"Ey kendilerine kötülük edip aşırı giden kullarım! Allah'ın rahmetinden umudunuzu kesmeyin. Doğrusu Allah günahların hepsini bağışlar. Çünkü O, bağışlayandır, merhametlidir.\"",
+    "sourceUrl": "https://api.alquran.cloud/v1/ayah/39:53/editions/quran-uthmani,tr.diyanet",
+    "fetchedAt": "2026-10-20T16:30:48.035898+00:00",
+    "name": "Zümer",
+    "edition": "tr.diyanet",
+    "contextUrl": "https://quran.com/tr/39/53"
+  },
+  {
+    "id": "50:16",
+    "surah": 50,
+    "verse": 16,
+    "arabic": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِۦ نَفْسُهُۥ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ ٱلْوَرِيدِ",
+    "translation": "And olsun ki insanı Biz yarattık; nefsinin kendisine fısıldadıklarını biliriz; Biz ona şah damarından daha yakınız.",
+    "sourceUrl": "https://api.alquran.cloud/v1/ayah/50:16/editions/quran-uthmani,tr.diyanet",
+    "fetchedAt": "2026-10-20T16:30:48.272275+00:00",
+    "name": "Kâf",
+    "edition": "tr.diyanet",
+    "contextUrl": "https://quran.com/tr/50/16"
+  }
+]

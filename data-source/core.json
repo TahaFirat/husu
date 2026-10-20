@@ -1,0 +1,1616 @@
+{
+  "source": "https://api.alquran.cloud/v1",
+  "editions": [
+    "quran-uthmani",
+    "tr.diyanet",
+    "ar.alafasy"
+  ],
+  "wordSource": null,
+  "transliterationSource": null,
+  "surahs": [
+    {
+      "id": 1,
+      "name": "سُورَةُ ٱلْفَاتِحَةِ",
+      "englishName": "Al-Faatiha",
+      "numberOfAyahs": 7,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 1,
+          "arabic": "﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "translation": "Rahman ve Rahim olan Allah'ın adıyla:",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/1.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 2,
+          "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+          "translation": "Hamd, Alemlerin Rabbi Allah'a mahsustur.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/2.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 3,
+          "arabic": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "translation": "O Rahman ve Rahim'dir,",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/3.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 4,
+          "arabic": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+          "translation": "Din Gününün sahibidir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 5,
+          "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "translation": "Ancak Sana kulluk eder ve yalnız Senden yardım dileriz.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5.mp3",
+          "words": null
+        },
+        {
+          "number": 6,
+          "globalNumber": 6,
+          "arabic": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+          "translation": "Bizi doğru yola eriştir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6.mp3",
+          "words": null
+        },
+        {
+          "number": 7,
+          "globalNumber": 7,
+          "arabic": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+          "translation": "Nimete erdirdiğin kimselerin yoluna; gazaba uğrayanların, ya da sapıtanların yoluna değil.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/7.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "سُورَةُ البَقَرَةِ",
+      "englishName": "Al-Baqara",
+      "numberOfAyahs": 286,
+      "verses": [
+        {
+          "number": 255,
+          "globalNumber": 262,
+          "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+          "translation": "Allah, O'ndan başka tanrı olmayan, kendisini uyuklama ve uyku tutmayan, diri, her an yaratıklarını gözetip durandır. Göklerde olan ve yerde olan ancak O'nundur. O'nun izni olmadan katında şefaat edecek kimdir? Onların işlediklerini ve işleyeceklerini bilir, dilediğinden başka ilminden hiçbir şeyi kavrayamazlar. Hükümranlığı gökleri ve yeri kaplamıştır, onların gözetilmesi O'na ağır gelmez. O yücedir, büyüktür.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/262.mp3",
+          "words": null
+        },
+        {
+          "number": 285,
+          "globalNumber": 292,
+          "arabic": "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيْهِ مِن رَّبِّهِۦ وَٱلْمُؤْمِنُونَ ۚ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ ۚ وَقَالُوا۟ سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ",
+          "translation": "Peygamber ve inananlar, ona Rabb'inden indirilene inandı. Hepsi Allah'a, meleklerine, kitaplarına, peygamberlerine inandı. \"Peygamberleri arasından hiçbirini ayırdetmeyiz, işittik, itaat ettik, Rabbimiz! Affını dileriz, dönüş Sanadır\" dediler.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/292.mp3",
+          "words": null
+        },
+        {
+          "number": 286,
+          "globalNumber": 293,
+          "arabic": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+          "translation": "Allah kişiye ancak gücünün yeteceği kadar yükler; kazandığı iyilik lehine, ettiği kötülük de aleyhinedir. Rabbimiz! Eğer unutacak veya yanılacak olursak bizi sorumlu tutma. Rabbimiz bizden öncekilere yüklediğin gibi, bize de ağır yük yükleme. Rabbimiz! Bize gücümüzün yetmeyeceği şeyi taşıtma, bizi affet, bizi bağışla, bize acı. Sen Mevlamızsın, kafirlere karşı bize yardım et.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/293.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "سُورَةُ الحَشۡرِ",
+      "englishName": "Al-Hashr",
+      "numberOfAyahs": 24,
+      "verses": [
+        {
+          "number": 22,
+          "globalNumber": 5148,
+          "arabic": "هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَٰهَ إِلَّا هُوَ ۖ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۖ هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ",
+          "translation": "O, görüleni de görülmeyeni de bilen, kendisinden başka tanrı olmayan Allah'tır. O, acıyıcı olandır, acıyandır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5148.mp3",
+          "words": null
+        },
+        {
+          "number": 23,
+          "globalNumber": 5149,
+          "arabic": "هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَٰهَ إِلَّا هُوَ ٱلْمَلِكُ ٱلْقُدُّوسُ ٱلسَّلَٰمُ ٱلْمُؤْمِنُ ٱلْمُهَيْمِنُ ٱلْعَزِيزُ ٱلْجَبَّارُ ٱلْمُتَكَبِّرُ ۚ سُبْحَٰنَ ٱللَّهِ عَمَّا يُشْرِكُونَ",
+          "translation": "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır. Allah onların koştukları eşlerden (ortaklardan) münezzehtir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5149.mp3",
+          "words": null
+        },
+        {
+          "number": 24,
+          "globalNumber": 5150,
+          "arabic": "هُوَ ٱللَّهُ ٱلْخَٰلِقُ ٱلْبَارِئُ ٱلْمُصَوِّرُ ۖ لَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ يُسَبِّحُ لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+          "translation": "O, vareden, güzel yaratan, yarattıklarına şekil veren, en güzel adlar kendisinin olan Allah'tır. Göklerde ve yerde olanlar O'nu tesbih ederler. O güçlüdür, Hakim'dir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5150.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "سُورَةُ الضُّحَىٰ",
+      "englishName": "Ad-Dhuhaa",
+      "numberOfAyahs": 11,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6080,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلضُّحَىٰ",
+          "translation": "Kuşluk vaktine and olsun;",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6080.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6081,
+          "arabic": "وَٱلَّيْلِ إِذَا سَجَىٰ",
+          "translation": "Sükun erdiği zaman geceye and olsun ki,",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6081.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6082,
+          "arabic": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+          "translation": "Rabbin seni ne bıraktı ve ne de sana darıldı.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6082.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6083,
+          "arabic": "وَلَلْءَاخِرَةُ خَيْرٌۭ لَّكَ مِنَ ٱلْأُولَىٰ",
+          "translation": "Doğrusu ahiret senin için dünyadan daha hayırlıdır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6083.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6084,
+          "arabic": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+          "translation": "Rabbin şüphesiz sana verecek ve sen de hoşnut olacaksın.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6084.mp3",
+          "words": null
+        },
+        {
+          "number": 6,
+          "globalNumber": 6085,
+          "arabic": "أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ",
+          "translation": "Seni öksüz bulup da barındırmadı mı?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6085.mp3",
+          "words": null
+        },
+        {
+          "number": 7,
+          "globalNumber": 6086,
+          "arabic": "وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ",
+          "translation": "Seni şaşırmış bulup, doğru yola eriştirmedi mi?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6086.mp3",
+          "words": null
+        },
+        {
+          "number": 8,
+          "globalNumber": 6087,
+          "arabic": "وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ",
+          "translation": "Seni fakir bulup zenginleştirmedi mi?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6087.mp3",
+          "words": null
+        },
+        {
+          "number": 9,
+          "globalNumber": 6088,
+          "arabic": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+          "translation": "Öyleyse sakın öksüze kötü muamele etme;",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6088.mp3",
+          "words": null
+        },
+        {
+          "number": 10,
+          "globalNumber": 6089,
+          "arabic": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+          "translation": "Ve sakın bir şey isteyeni azarlama;",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6089.mp3",
+          "words": null
+        },
+        {
+          "number": 11,
+          "globalNumber": 6090,
+          "arabic": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+          "translation": "Yalnızca Rabbinin nimetini anlat.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6090.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "سُورَةُ الشَّرۡحِ",
+      "englishName": "Ash-Sharh",
+      "numberOfAyahs": 8,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6091,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+          "translation": "Senin gönlünü açmadık mı?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6091.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6092,
+          "arabic": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+          "translation": "Belini büken yükünü üzerinden almadık mı?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6092.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6093,
+          "arabic": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+          "translation": "Belini büken yükünü üzerinden almadık mı?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6093.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6094,
+          "arabic": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+          "translation": "Senin şanını yükseltmedik mi?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6094.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6095,
+          "arabic": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+          "translation": "Elbette güçlükle beraber şüphesiz bir kolaylık vardır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6095.mp3",
+          "words": null
+        },
+        {
+          "number": 6,
+          "globalNumber": 6096,
+          "arabic": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا",
+          "translation": "Gerçekten, güçlükle beraber bir kolaylık vardır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6096.mp3",
+          "words": null
+        },
+        {
+          "number": 7,
+          "globalNumber": 6097,
+          "arabic": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+          "translation": "Öyleyse, bir işi bitirince diğerine giriş;",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6097.mp3",
+          "words": null
+        },
+        {
+          "number": 8,
+          "globalNumber": 6098,
+          "arabic": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+          "translation": "Ve ümit edeceğini yalnız Rabbinden iste.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6098.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "سُورَةُ التِّينِ",
+      "englishName": "At-Tin",
+      "numberOfAyahs": 8,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6099,
+          "arabic": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلتِّينِ وَٱلزَّيْتُونِ",
+          "translation": "İncir ve zeytine and olsun,",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6099.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6100,
+          "arabic": "وَطُورِ سِينِينَ",
+          "translation": "And olsun Sina dağına,",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6100.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6101,
+          "arabic": "وَهَٰذَا ٱلْبَلَدِ ٱلْأَمِينِ",
+          "translation": "And olsun bu güvenli Mekke şehrine ki:",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6101.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6102,
+          "arabic": "لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ",
+          "translation": "Biz insanı en güzel şekilde yarattık,",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6102.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6103,
+          "arabic": "ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ",
+          "translation": "Sonra onu aşağıların en aşağısı kıldık.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6103.mp3",
+          "words": null
+        },
+        {
+          "number": 6,
+          "globalNumber": 6104,
+          "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ",
+          "translation": "Yalnız, inanıp yararlı iş işleyenler bunun dışındadır. Onlara kesintisiz ecir vardır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6104.mp3",
+          "words": null
+        },
+        {
+          "number": 7,
+          "globalNumber": 6105,
+          "arabic": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
+          "translation": "Öyleyken, sana dini yalan saydırtan nedir?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6105.mp3",
+          "words": null
+        },
+        {
+          "number": 8,
+          "globalNumber": 6106,
+          "arabic": "أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَٰكِمِينَ",
+          "translation": "Allah, hükmedenlerin en iyi hükmedeni değil midir?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6106.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "سُورَةُ العَلَقِ",
+      "englishName": "Al-Alaq",
+      "numberOfAyahs": 19,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6107,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+          "translation": "Yaratan Rabbinin adıyla oku!",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6107.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6108,
+          "arabic": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ",
+          "translation": "O, insanı pıhtılaşmış kandan (alak'tan) yarattı.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6108.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6109,
+          "arabic": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
+          "translation": "Oku! Kalemle öğreten, insana bilmediğini bildiren Rabbin, en büyük kerem sahibidir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6109.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6110,
+          "arabic": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
+          "translation": "Oku! Kalemle öğreten, insana bilmediğini bildiren Rabbin, en büyük kerem sahibidir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6110.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6111,
+          "arabic": "عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ",
+          "translation": "Oku! Kalemle öğreten, insana bilmediğini bildiren Rabbin, en büyük kerem sahibidir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6111.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "سُورَةُ القَدۡرِ",
+      "englishName": "Al-Qadr",
+      "numberOfAyahs": 5,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6126,
+          "arabic": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
+          "translation": "Doğrusu, Biz, Kuran'ı kadir gecesinde indirmişizdir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6126.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6127,
+          "arabic": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
+          "translation": "Kadir gecesinin ne olduğunu sen bilir misin?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6127.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6128,
+          "arabic": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌۭ مِّنْ أَلْفِ شَهْرٍۢ",
+          "translation": "Kadir gecesi bin aydan hayırlıdır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6128.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6129,
+          "arabic": "تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ",
+          "translation": "Melekler ve Cebrail o gecede Rablerinin izniyle her türlü iş için inerler.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6129.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6130,
+          "arabic": "سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+          "translation": "O gece, tan yerinin ağarmasına kadar bir esenliktir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6130.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "سُورَةُ البَيِّنَةِ",
+      "englishName": "Al-Bayyina",
+      "numberOfAyahs": 8,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6131,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لَمْ يَكُنِ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ ٱلْبَيِّنَةُ",
+          "translation": "Kitap ehlinden ve ortak koşanlardan inkarcılar, kendilerine apaçık bir belge, içinde kesin ve en doğru hükümlerin bulunduğu arınmış sahifeleri okuyan, Allah katından bir Peygamber gelene kadar dinlerinden vazgeçecek değillerdi.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6131.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6132,
+          "arabic": "رَسُولٌۭ مِّنَ ٱللَّهِ يَتْلُوا۟ صُحُفًۭا مُّطَهَّرَةًۭ",
+          "translation": "Kitap ehlinden ve ortak koşanlardan inkarcılar, kendilerine apaçık bir belge, içinde kesin ve en doğru hükümlerin bulunduğu arınmış sahifeleri okuyan, Allah katından bir Peygamber gelene kadar dinlerinden vazgeçecek değillerdi.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6132.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6133,
+          "arabic": "فِيهَا كُتُبٌۭ قَيِّمَةٌۭ",
+          "translation": "Kitap ehlinden ve ortak koşanlardan inkarcılar, kendilerine apaçık bir belge, içinde kesin ve en doğru hükümlerin bulunduğu arınmış sahifeleri okuyan, Allah katından bir Peygamber gelene kadar dinlerinden vazgeçecek değillerdi.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6133.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6134,
+          "arabic": "وَمَا تَفَرَّقَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَةُ",
+          "translation": "Ama, kendilerine kitap verilenler, onlara apaçık belge geldikten sonra ayrılığa düştüler.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6134.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6135,
+          "arabic": "وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ",
+          "translation": "Oysa onlar, doğruya yönelerek, dini yalnız Allah'a has kılarak O'na kulluk etmek, namazı kılmak ve zekatı vermekle emrolunmuşlardı. Dosdoğru olan din de budur.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6135.mp3",
+          "words": null
+        },
+        {
+          "number": 6,
+          "globalNumber": 6136,
+          "arabic": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ فِى نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآ ۚ أُو۟لَٰٓئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ",
+          "translation": "Kitap ehlinden ve ortak koşanlardan inkar edenler, şüphesiz içinde temelli kalacakları cehennem ateşindedirler. İşte bunlar, yaratıkların en kötüsüdürler.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6136.mp3",
+          "words": null
+        },
+        {
+          "number": 7,
+          "globalNumber": 6137,
+          "arabic": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أُو۟لَٰٓئِكَ هُمْ خَيْرُ ٱلْبَرِيَّةِ",
+          "translation": "Fakat, inanıp yararlı iş işleyenler, işte onlar da, yaratıkların en iyileridirler.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6137.mp3",
+          "words": null
+        },
+        {
+          "number": 8,
+          "globalNumber": 6138,
+          "arabic": "جَزَآؤُهُمْ عِندَ رَبِّهِمْ جَنَّٰتُ عَدْنٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًۭا ۖ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ ۚ ذَٰلِكَ لِمَنْ خَشِىَ رَبَّهُۥ",
+          "translation": "Onların Rableri katındaki mükafatı, içinde temelli ve sonsuz kalacakları, içlerinden ırmaklar akan Adn cennetleridir. Allah onlardan razıdır. Onlar da Allah'tan razıdır. Bu, Rabbinden korkan kimseyedir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6138.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "سُورَةُ الزَّلۡزَلَةِ",
+      "englishName": "Az-Zalzala",
+      "numberOfAyahs": 8,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6139,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+          "translation": "Yer dehşetle sarsıldıkça sarsıldığı, yeryüzü ağırlıklarını dışarıya çıkardığı ve insanın: \"Buna ne oluyor?\" dediği zaman;",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6139.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6140,
+          "arabic": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+          "translation": "Yer dehşetle sarsıldıkça sarsıldığı, yeryüzü ağırlıklarını dışarıya çıkardığı ve insanın: \"Buna ne oluyor?\" dediği zaman;",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6140.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6141,
+          "arabic": "وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا",
+          "translation": "Yer dehşetle sarsıldıkça sarsıldığı, yeryüzü ağırlıklarını dışarıya çıkardığı ve insanın: \"Buna ne oluyor?\" dediği zaman;",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6141.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6142,
+          "arabic": "يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا",
+          "translation": "İşte o gün, yer, Rabbinin ona vahyetmesiyle kendi haberlerini anlatır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6142.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6143,
+          "arabic": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+          "translation": "İşte o gün, yer, Rabbinin ona vahyetmesiyle kendi haberlerini anlatır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6143.mp3",
+          "words": null
+        },
+        {
+          "number": 6,
+          "globalNumber": 6144,
+          "arabic": "يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ",
+          "translation": "O gün insanlar işlerinin kendilerine gösterilmesi için bölük bölük dönerler.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6144.mp3",
+          "words": null
+        },
+        {
+          "number": 7,
+          "globalNumber": 6145,
+          "arabic": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ",
+          "translation": "Kim zerre kadar iyilik yapmışsa onu görür.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6145.mp3",
+          "words": null
+        },
+        {
+          "number": 8,
+          "globalNumber": 6146,
+          "arabic": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ",
+          "translation": "Kim de zerre kadar kötülük yapmışsa onu görür.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6146.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "سُورَةُ العَادِيَاتِ",
+      "englishName": "Al-Aadiyaat",
+      "numberOfAyahs": 11,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6147,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+          "translation": "And olsun Allah yolunda koştukça koşanlara;",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6147.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6148,
+          "arabic": "فَٱلْمُورِيَٰتِ قَدْحًۭا",
+          "translation": "And olsun kıvılcımlar saçanlara;",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6148.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6149,
+          "arabic": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
+          "translation": "Sabah sabah akına çıkanlara;",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6149.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6150,
+          "arabic": "فَأَثَرْنَ بِهِۦ نَقْعًۭا",
+          "translation": "Ve tozu dumana katanlara;",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6150.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6151,
+          "arabic": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+          "translation": "Düşman topluluğunun içine dalanlara ki:",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6151.mp3",
+          "words": null
+        },
+        {
+          "number": 6,
+          "globalNumber": 6152,
+          "arabic": "إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ",
+          "translation": "İnsan gerçekten Rabbine karşı pek nankördür.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6152.mp3",
+          "words": null
+        },
+        {
+          "number": 7,
+          "globalNumber": 6153,
+          "arabic": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ",
+          "translation": "Doğrusu kendisi de bunların hepsine şahittir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6153.mp3",
+          "words": null
+        },
+        {
+          "number": 8,
+          "globalNumber": 6154,
+          "arabic": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+          "translation": "Gerçekten mala da pek düşkündür.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6154.mp3",
+          "words": null
+        },
+        {
+          "number": 9,
+          "globalNumber": 6155,
+          "arabic": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+          "translation": "İnsan, kabirlerde bulunanların çıkarılacağı ve kalblerde olanların ortaya konulacağı bir zamanın geleceğini bilmez mi?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6155.mp3",
+          "words": null
+        },
+        {
+          "number": 10,
+          "globalNumber": 6156,
+          "arabic": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
+          "translation": "İnsan, kabirlerde bulunanların çıkarılacağı ve kalblerde olanların ortaya konulacağı bir zamanın geleceğini bilmez mi?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6156.mp3",
+          "words": null
+        },
+        {
+          "number": 11,
+          "globalNumber": 6157,
+          "arabic": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ",
+          "translation": "Doğrusu Rableri o gün onların her şeyinden haberdardır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6157.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "سُورَةُ القَارِعَةِ",
+      "englishName": "Al-Qaari'a",
+      "numberOfAyahs": 11,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6158,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱلْقَارِعَةُ",
+          "translation": "Gürültü koparacak olan",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6158.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6159,
+          "arabic": "مَا ٱلْقَارِعَةُ",
+          "translation": "Nedir o gürültü koparacak olan?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6159.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6160,
+          "arabic": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
+          "translation": "O gürültü koparacak olanın ne olduğunu sen bilir misin?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6160.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6161,
+          "arabic": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
+          "translation": "O gün insanlar, ateş etrafında çırpınıp dökülen pervaneye dönecekler.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6161.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6162,
+          "arabic": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+          "translation": "Dağlar, atılmış renkli yüne benzeyecekler.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6162.mp3",
+          "words": null
+        },
+        {
+          "number": 6,
+          "globalNumber": 6163,
+          "arabic": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+          "translation": "Ama tartıları ağır gelen kimse hoş bir hayat içinde olacaktır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6163.mp3",
+          "words": null
+        },
+        {
+          "number": 7,
+          "globalNumber": 6164,
+          "arabic": "فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ",
+          "translation": "Ama tartıları ağır gelen kimse hoş bir hayat içinde olacaktır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6164.mp3",
+          "words": null
+        },
+        {
+          "number": 8,
+          "globalNumber": 6165,
+          "arabic": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
+          "translation": "Tartıları hafif gelenler ise,",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6165.mp3",
+          "words": null
+        },
+        {
+          "number": 9,
+          "globalNumber": 6166,
+          "arabic": "فَأُمُّهُۥ هَاوِيَةٌۭ",
+          "translation": "Onların yeri bir çukurdur.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6166.mp3",
+          "words": null
+        },
+        {
+          "number": 10,
+          "globalNumber": 6167,
+          "arabic": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ",
+          "translation": "O çukurun ne olduğunu sen bilir misin?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6167.mp3",
+          "words": null
+        },
+        {
+          "number": 11,
+          "globalNumber": 6168,
+          "arabic": "نَارٌ حَامِيَةٌۢ",
+          "translation": "O, kızgın bir ateştir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6168.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "سُورَةُ التَّكَاثُرِ",
+      "englishName": "At-Takaathur",
+      "numberOfAyahs": 8,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6169,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+          "translation": "Çoğunluk olmak iddianız sizi o kadar meşgul etti ki, mezarları ziyaretle oradakileri de sayacak kadar oldunuz.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6169.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6170,
+          "arabic": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
+          "translation": "Çoğunluk olmak iddianız sizi o kadar meşgul etti ki, mezarları ziyaretle oradakileri de sayacak kadar oldunuz.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6170.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6171,
+          "arabic": "كَلَّا سَوْفَ تَعْلَمُونَ",
+          "translation": "Hayır; öyle olmayın; yakında bileceksiniz.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6171.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6172,
+          "arabic": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+          "translation": "Hayır; gözünüzü açın; yakında bileceksiniz.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6172.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6173,
+          "arabic": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
+          "translation": "Dikkat edin, şayet yaptığınızın sonucunu kesin olarak bir bilseniz!",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6173.mp3",
+          "words": null
+        },
+        {
+          "number": 6,
+          "globalNumber": 6174,
+          "arabic": "لَتَرَوُنَّ ٱلْجَحِيمَ",
+          "translation": "And olsun ki, cehennemi göreceksiniz.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6174.mp3",
+          "words": null
+        },
+        {
+          "number": 7,
+          "globalNumber": 6175,
+          "arabic": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
+          "translation": "And olsun ki, onu gözünüzle kesin olarak göreceksiniz.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6175.mp3",
+          "words": null
+        },
+        {
+          "number": 8,
+          "globalNumber": 6176,
+          "arabic": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
+          "translation": "Sonra o gün, size verilmiş olan her nimetten sorguya çekileceksiniz.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6176.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "سُورَةُ العَصۡرِ",
+      "englishName": "Al-Asr",
+      "numberOfAyahs": 3,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6177,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَصْرِ",
+          "translation": "İkindi vaktine (Asra; çağa) and olsun ki,",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6177.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6178,
+          "arabic": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+          "translation": "İnsan hiç şüphesiz hüsran içindedir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6178.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6179,
+          "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+          "translation": "Ancak inanıp yararlı iş işleyenler, birbirlerine gerçeği tavsiye edenler ve sabırlı olmayı tavsiye edenler bunun dışındadır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6179.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "سُورَةُ الهُمَزَةِ",
+      "englishName": "Al-Humaza",
+      "numberOfAyahs": 9,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6180,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَيْلٌۭ لِّكُلِّ هُمَزَةٍۢ لُّمَزَةٍ",
+          "translation": "Mal toplayarak onu tekrar tekrar sayan, diliyle çekiştirip alay eden kimsenin vay haline!",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6180.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6181,
+          "arabic": "ٱلَّذِى جَمَعَ مَالًۭا وَعَدَّدَهُۥ",
+          "translation": "Mal toplayarak onu tekrar tekrar sayan, diliyle çekiştirip alay eden kimsenin vay haline!",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6181.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6182,
+          "arabic": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+          "translation": "Malının kendisini ölümsüz kılacağını sanır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6182.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6183,
+          "arabic": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+          "translation": "Hayır; o, and olsun ki, Hutame'ye atılacaktır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6183.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6184,
+          "arabic": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
+          "translation": "Hutame'nin ne olduğunu sen bilir misin?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6184.mp3",
+          "words": null
+        },
+        {
+          "number": 6,
+          "globalNumber": 6185,
+          "arabic": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
+          "translation": "O, yüreklere çökecek olan, Allah'ın tutuşturulmuş ateşidir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6185.mp3",
+          "words": null
+        },
+        {
+          "number": 7,
+          "globalNumber": 6186,
+          "arabic": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+          "translation": "O, yüreklere çökecek olan, Allah'ın tutuşturulmuş ateşidir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6186.mp3",
+          "words": null
+        },
+        {
+          "number": 8,
+          "globalNumber": 6187,
+          "arabic": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌۭ",
+          "translation": "Onlar, uzun sütunlar arasında, her yönden o ateşle kapatılmışlardır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6187.mp3",
+          "words": null
+        },
+        {
+          "number": 9,
+          "globalNumber": 6188,
+          "arabic": "فِى عَمَدٍۢ مُّمَدَّدَةٍۭ",
+          "translation": "Onlar, uzun sütunlar arasında, her yönden o ateşle kapatılmışlardır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6188.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "سُورَةُ الفِيلِ",
+      "englishName": "Al-Fil",
+      "numberOfAyahs": 5,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6189,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+          "translation": "Fil sahiplerine Rabbinin ne ettiğini görmedin mi?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6189.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6190,
+          "arabic": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ",
+          "translation": "Onların düzenlerini boşa çıkarmadı mı?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6190.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6191,
+          "arabic": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+          "translation": "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6191.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6192,
+          "arabic": "تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ",
+          "translation": "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6192.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6193,
+          "arabic": "فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ",
+          "translation": "Sonunda onları, yenilmiş ekin gibi yaptı.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6193.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "سُورَةُ قُرَيۡشٍ",
+      "englishName": "Quraish",
+      "numberOfAyahs": 4,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6194,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لِإِيلَٰفِ قُرَيْشٍ",
+          "translation": "Kureyş kabilesinin yaz ve kış yolculuklarında uzlaşması ve anlaşması sağlanmıştır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6194.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6195,
+          "arabic": "إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+          "translation": "Kureyş kabilesinin yaz ve kış yolculuklarında uzlaşması ve anlaşması sağlanmıştır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6195.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6196,
+          "arabic": "فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ",
+          "translation": "Öyleyse kendilerini açken doyuran ve korku içindeyken güven veren bu Ev'in (Kabe'nin) Rabbine kulluk etsinler.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6196.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6197,
+          "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+          "translation": "Öyleyse kendilerini açken doyuran ve korku içindeyken güven veren bu Ev'in (Kabe'nin) Rabbine kulluk etsinler.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6197.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "سُورَةُ المَاعُونِ",
+      "englishName": "Al-Maa'un",
+      "numberOfAyahs": 7,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6198,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+          "translation": "Dini yalan sayanı gördün mü?",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6198.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6199,
+          "arabic": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+          "translation": "Öksüzü kakıştıran, yoksulu doyurmaya yanaşmayan kimse işte odur.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6199.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6200,
+          "arabic": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+          "translation": "Öksüzü kakıştıran, yoksulu doyurmaya yanaşmayan kimse işte odur.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6200.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6201,
+          "arabic": "فَوَيْلٌۭ لِّلْمُصَلِّينَ",
+          "translation": "Vay o namaz kılanların haline ki:",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6201.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6202,
+          "arabic": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+          "translation": "Onlar kıldıkları namazdan gafildirler.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6202.mp3",
+          "words": null
+        },
+        {
+          "number": 6,
+          "globalNumber": 6203,
+          "arabic": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
+          "translation": "Onlar gösteriş yaparlar.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6203.mp3",
+          "words": null
+        },
+        {
+          "number": 7,
+          "globalNumber": 6204,
+          "arabic": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+          "translation": "Onlar basit şeyleri dahi vermezler.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6204.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "سُورَةُ الكَوۡثَرِ",
+      "englishName": "Al-Kawthar",
+      "numberOfAyahs": 3,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6205,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+          "translation": "Doğrusu sana pek çok nimet vermişizdir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6205.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6206,
+          "arabic": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+          "translation": "Öyleyse Rabbin için namaz kıl, kurban kes.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6206.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6207,
+          "arabic": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+          "translation": "Doğrusu adı sanı ortadan kalkacak olan, sana kin tutan kimsedir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6207.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "سُورَةُ الكَافِرُونَ",
+      "englishName": "Al-Kaafiroon",
+      "numberOfAyahs": 6,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6208,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
+          "translation": "De ki: \"Ey inkarcılar!\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6208.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6209,
+          "arabic": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
+          "translation": "\"Ben sizin taptıklarınıza tapmam.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6209.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6210,
+          "arabic": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
+          "translation": "\"Benim taptığıma da sizler tapmazsınız.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6210.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6211,
+          "arabic": "وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ",
+          "translation": "\"Ben de sizin taptığınıza tapacak değilim.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6211.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6212,
+          "arabic": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
+          "translation": "\"Benim taptığıma da sizler tapmıyorsunuz.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6212.mp3",
+          "words": null
+        },
+        {
+          "number": 6,
+          "globalNumber": 6213,
+          "arabic": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
+          "translation": "\"Sizin dininiz size, benim dinim banadır.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6213.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "سُورَةُ النَّصۡرِ",
+      "englishName": "An-Nasr",
+      "numberOfAyahs": 3,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6214,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+          "translation": "Allah'ın yardımı ve zafer günü gelip, insanların Allah'ın dinine akın akın girdiklerini görünce, Rabbini överek tesbih et; O'ndan bağışlama dile, çünkü O, tevbeleri daima kabul edendir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6214.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6215,
+          "arabic": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا",
+          "translation": "Allah'ın yardımı ve zafer günü gelip, insanların Allah'ın dinine akın akın girdiklerini görünce, Rabbini överek tesbih et; O'ndan bağışlama dile, çünkü O, tevbeleri daima kabul edendir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6215.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6216,
+          "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+          "translation": "Allah'ın yardımı ve zafer günü gelip, insanların Allah'ın dinine akın akın girdiklerini görünce, Rabbini överek tesbih et; O'ndan bağışlama dile, çünkü O, tevbeleri daima kabul edendir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6216.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "name": "سُورَةُ المَسَدِ",
+      "englishName": "Al-Masad",
+      "numberOfAyahs": 5,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6217,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
+          "translation": "Ebu Leheb'in elleri kurusun; kurudu da!",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6217.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6218,
+          "arabic": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+          "translation": "Malı ve kazandığı kendisine fayda vermedi.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6218.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6219,
+          "arabic": "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
+          "translation": "Alevli ateşe yaslanacaktır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6219.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6220,
+          "arabic": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+          "translation": "Karısı da, boynunda bir ip olduğu halde ona odun taşıyacaktır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6220.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6221,
+          "arabic": "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
+          "translation": "Karısı da, boynunda bir ip olduğu halde ona odun taşıyacaktır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6221.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "سُورَةُ الإِخۡلَاصِ",
+      "englishName": "Al-Ikhlaas",
+      "numberOfAyahs": 4,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6222,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+          "translation": "De ki: O Allah bir tektir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6222.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6223,
+          "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+          "translation": "Allah her şeyden müstağni ve her şey O'na muhtaçtır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6223.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6224,
+          "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+          "translation": "O doğurmamış ve doğmamıştır.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6224.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6225,
+          "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+          "translation": "Hiçbir şey O'na denk değildir.",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6225.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "سُورَةُ الفَلَقِ",
+      "englishName": "Al-Falaq",
+      "numberOfAyahs": 5,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6226,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+          "translation": "De ki: \"Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6226.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6227,
+          "arabic": "مِن شَرِّ مَا خَلَقَ",
+          "translation": "De ki: \"Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6227.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6228,
+          "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+          "translation": "De ki: \"Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6228.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6229,
+          "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+          "translation": "De ki: \"Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6229.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6230,
+          "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+          "translation": "De ki: \"Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6230.mp3",
+          "words": null
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "سُورَةُ النَّاسِ",
+      "englishName": "An-Naas",
+      "numberOfAyahs": 6,
+      "verses": [
+        {
+          "number": 1,
+          "globalNumber": 6231,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+          "translation": "De ki: \"İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6231.mp3",
+          "words": null
+        },
+        {
+          "number": 2,
+          "globalNumber": 6232,
+          "arabic": "مَلِكِ ٱلنَّاسِ",
+          "translation": "De ki: \"İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6232.mp3",
+          "words": null
+        },
+        {
+          "number": 3,
+          "globalNumber": 6233,
+          "arabic": "إِلَٰهِ ٱلنَّاسِ",
+          "translation": "De ki: \"İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6233.mp3",
+          "words": null
+        },
+        {
+          "number": 4,
+          "globalNumber": 6234,
+          "arabic": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+          "translation": "De ki: \"İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6234.mp3",
+          "words": null
+        },
+        {
+          "number": 5,
+          "globalNumber": 6235,
+          "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+          "translation": "De ki: \"İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6235.mp3",
+          "words": null
+        },
+        {
+          "number": 6,
+          "globalNumber": 6236,
+          "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+          "translation": "De ki: \"İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.\"",
+          "transliteration": null,
+          "audio": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6236.mp3",
+          "words": null
+        }
+      ]
+    }
+  ]
+}
