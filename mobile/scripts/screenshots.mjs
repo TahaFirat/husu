@@ -13,6 +13,8 @@ const CHROME = process.env.CHROME || 'C:/Program Files/Google/Chrome/Application
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const devices = [
+  { name: 'iphone_dynamic_island_medium_1206x2622', width: 402, height: 874, scale: 3, mobile: true },
+  { name: 'iphone_dynamic_island_medium_1179x2556', width: 393, height: 852, scale: 3, mobile: true },
   { name: 'iphone_6.9_1290x2796', width: 430, height: 932, scale: 3, mobile: true },
   { name: 'iphone_6.5_1284x2778', width: 428, height: 926, scale: 3, mobile: true },
   { name: 'ipad_13_2048x2732', width: 1024, height: 1366, scale: 2, mobile: true },
@@ -37,7 +39,7 @@ try {
   ws.addEventListener('message', (e) => { const m = JSON.parse(e.data); if (m.id && pending.has(m.id)) { pending.get(m.id)[m.error ? 'rej' : 'res'](m.error || m.result); pending.delete(m.id); } });
   await send('Page.enable'); await send('Runtime.enable');
 
-  for (const d of devices) {
+  for (const d of devices.filter((x) => !process.env.ONLY || x.name.includes(process.env.ONLY))) {
     const dir = path.join(outRoot, d.name); fs.mkdirSync(dir, { recursive: true });
     console.log(d.name);
     await send('Emulation.setDeviceMetricsOverride', { width: d.width, height: d.height, deviceScaleFactor: d.scale, mobile: d.mobile });
