@@ -32,6 +32,8 @@ export default function HusuApp(){
   useEffect(()=>{
     setFavorites(uniqueSelections(read<unknown[]>('library',migrateFavorites(read<unknown[]>('favorites',[])))));
     setRecent(uniqueSelections(read<unknown[]>('recent',[])));
+    const pending=read<Selection|null>('pendingSelection',null);
+    if(pending&&typeof pending.id==='string'&&Number.isInteger(pending.start)&&Number.isInteger(pending.end)){setSelection(pending);write('pendingSelection',null);}
     const saved=read<string>('fontSize','large');setFontSize(fontSizes.some(f=>f.id===saved)?saved as FontSize:'large');
     setReady(true);prepareOffline();
   },[]);

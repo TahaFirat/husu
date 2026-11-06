@@ -1,15 +1,31 @@
 import UIKit
 import Capacitor
 
+final class HusuViewController: CAPBridgeViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let nightTeal = UIColor(red: 8.0 / 255.0, green: 15.0 / 255.0, blue: 18.0 / 255.0, alpha: 1.0)
+        view.backgroundColor = nightTeal
+        webView?.isOpaque = false
+        webView?.backgroundColor = nightTeal
+        webView?.scrollView.backgroundColor = nightTeal
+        webView?.scrollView.bounces = true
+        webView?.scrollView.alwaysBounceVertical = true
+        webView?.allowsBackForwardNavigationGestures = true
+    }
+}
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = scene as? UIWindowScene else { return }
 
-        window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = CAPBridgeViewController()
-        window?.makeKeyAndVisible()
+        let rootWindow = UIWindow(windowScene: windowScene)
+        rootWindow.backgroundColor = UIColor(red: 8.0 / 255.0, green: 15.0 / 255.0, blue: 18.0 / 255.0, alpha: 1.0)
+        rootWindow.rootViewController = HusuViewController()
+        rootWindow.makeKeyAndVisible()
+        window = rootWindow
 
         SceneDelegateProxy.shared.scene(scene, willConnectTo: session, options: connectionOptions)
     }
