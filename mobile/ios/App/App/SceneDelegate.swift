@@ -1,7 +1,7 @@
 import UIKit
 import Capacitor
 
-final class HusuViewController: CAPBridgeViewController {
+final class HusuViewController: CAPBridgeViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         let nightTeal = UIColor(red: 8.0 / 255.0, green: 15.0 / 255.0, blue: 18.0 / 255.0, alpha: 1.0)
@@ -11,7 +11,16 @@ final class HusuViewController: CAPBridgeViewController {
         webView?.scrollView.backgroundColor = nightTeal
         webView?.scrollView.bounces = true
         webView?.scrollView.alwaysBounceVertical = true
+        webView?.scrollView.alwaysBounceHorizontal = false
+        webView?.scrollView.minimumZoomScale = 1.0
+        webView?.scrollView.maximumZoomScale = 1.0
+        webView?.scrollView.bouncesZoom = false
+        webView?.scrollView.delegate = self
         webView?.allowsBackForwardNavigationGestures = true
+    }
+
+    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
+        return nil
     }
 }
 
